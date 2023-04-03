@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    
+    align-items: center;
+    gap: 3rem;
+   margin: 7.3rem;
+   
+}
+
+.container {
+    margin-top: 3rem;
+   
+}
+.container h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.7rem;
+}
+
+.text h2 {
+   font-size: 2.1rem;
+   font-weight: 500;
+}
+
+.text p {
+    margin-top: 1rem;
+    color: #232323E6;
+}
+
+
+@media screen and (max-width:995px) {
+    .main {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 5rem;
+    }
+    .image img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+}
+@media screen and (max-width:468px) {
+    .text h2 {
+        font-size: 1.6rem ;
+    }
+    .main {
+        margin: 2rem;
+    }
+    .container h1{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .text h2 {
+        font-size: 1.6rem ;
+    }
+    .text p {
+        font-size: .9rem;
+    }
+
+}

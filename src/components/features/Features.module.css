@@ -1,0 +1,157 @@
+.main {
+    background-color: #FFFBF4;
+    /* margin-top: 2rem; */
+    padding: 1rem;
+}
+ .main h2{
+  /* padding-top: 2rem; */
+  text-align: center;
+  font-size: 2.7rem;
+ }
+ .main p {
+    text-align: center;
+    color: #232323E6;
+ }
+.reports p{
+    text-align: left;
+}
+.reports {
+    margin-left: 1rem;
+}
+.container {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+    
+}
+.error {
+    display: flex;
+    margin-top: 1.5rem;
+}
+.image {
+    margin-top: 2.5rem;
+}
+.error h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+@media screen and (max-width:1100px) {
+    .image img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .container {
+        display: block;
+    }
+    .error h4 {
+        font-size: 1.2rem;
+    }
+    .main h2 {
+        font-size: 1.8rem;
+    }
+    .main p{
+        font-size: .9rem;
+    }
+    .reports p{
+        text-align: left;
+        font-size: .9rem;
+    }
+    .reports h4{
+        font-size: 1.1rem;
+    }
+    .reports {
+        margin-left: 20px;
+    }
+  
+   .images img {
+    width: 100%;
+   }
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 6rem;
+}
+.container1 img {
+    width: 100%;
+}
+.text {
+    margin-left: 1.5rem;
+}
+.text h2 {
+    font-size: 2.5rem;
+}
+.text p {
+    color: #232323E6;
+    margin-top: .6rem;
+}
+.text button {
+    margin-top: 1rem;
+    padding: .8rem 4rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: .8rem;
+    font-size: 1.1rem;
+    background-color: rgb(53, 48, 48) ;
+    color: white;
+    cursor: pointer;
+    
+}
+ .text button:hover{
+    background-color:#434141;
+
+}
+.alt {
+    display: block;
+}
+@media screen and (max-width:1160px) {
+    .container1 {
+        display: block;
+    }
+    .text {
+        /* margin-top: 2rem; */
+    }
+    .text button {
+        /* text-align: center;
+        align-items: center;
+        justify-content: center; */
+    }
+}
+/* @media screen and (max-width:768px) {
+    .text h2 {
+        font-size: 2.3rem;
+    }
+    .text button {
+        padding: 1rem .7rem;
+        font-size: 1rem;
+    }
+    .container1 {
+        padding: 4rem;
+    }
+} */
+@media screen and (max-width:460px) {
+    .text h2 {
+        font-size: 1.5rem;
+    }
+    .text button {
+        font-size: .8rem;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .container1 {
+        padding: 1rem;
+    }
+    .alt {
+        display: contents;
+    }
+    .text p {
+        font-size: .9rem;
+        padding: 1rem;
+    }
+}
+

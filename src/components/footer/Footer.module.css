@@ -1,0 +1,66 @@
+.Box {
+    padding: 70px 70px;
+    background-color: black;
+    position: absolute;
+    margin-top: 4rem;
+    width: 100%;
+}
+@media screen and (max-width:1000px) {
+    .box{
+    padding: 70px 30px;
+    }
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.Column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}
+.Row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 130px;
+}
+@media screen and (max-width:1000px) {
+    .Row{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+.FooterLink {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.Heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 40px;
+    
+}
+@media screen and (max-width:468px) {
+    .Heading {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .FooterLink{
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .Row{
+        grid-gap: 30px;
+    }
+    .Box{
+        margin-top: 1rem;
+        padding: 20px 40px;
+        
+    }
+}

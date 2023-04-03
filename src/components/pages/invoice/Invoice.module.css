@@ -1,0 +1,236 @@
+.container {
+    /* margin-left: 3rem; */
+    background-color: white;
+    /* padding: 1.7rem; */
+    border-radius: 1rem;
+}
+.text{
+    flex: 1;
+    margin-left: .7rem;
+}
+.text h1 { 
+    color: #3F3F3F;
+    /* margin: 2rem 1rem; */
+    font-weight: 500;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.change {
+    display: flex;
+    justify-content: space-between;
+}
+.icon4 {
+    display: flex;
+    font-size: 19px;
+    gap: .5rem;
+    cursor: pointer;
+}
+.bull {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 17px;
+}
+.ring{
+    background-color: white;
+    border-radius: 17px;
+    padding: .5rem;
+}
+.head th{
+    color: rgb(112, 114, 117);
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+    /* margin-left: 1rem; */
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+.main td {
+    padding: .5rem;
+}
+
+.AppGlass {
+    display: flex;
+    background-color: whitesmoke;
+   
+}
+.AppGlass .text{
+    overflow: scroll;
+
+}
+.AppGlass .text::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    overflow: scroll;
+    background-color: white;
+  
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.main table{
+   
+    border: 1px solid gray;
+    min-width: 600px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+
+}
+.main table::-webkit-scrollbar{
+    display: none;
+}
+.element div {
+    display: flex;
+    gap: 10px;
+}
+.element h3 {
+    padding: .2rem .6rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+.element p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.cancel {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FF7400;
+    background-color: #FFF3E1;
+    padding: 2px 5px;
+}
+.paid {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #096B07;
+    background-color: #90E58F;
+    padding: 2px 5px;
+}
+.due {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #52536D;
+    background-color: #F7F7FA;
+    padding: 2px 5px;
+}
+.drop-down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1rem;
+ 
+    gap: 1.5rem;
+    margin-left: .5rem;
+    padding: 1.7rem;
+    align-items: center;
+    margin: 1rem .7rem 0rem .5rem;
+}
+.drop-down button{
+ 
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+}
+.drop-down .drop-down-text select{
+    font-size:13px;
+    padding: 6px;
+    border: 1px solid grey;
+    margin-left: .5rem;
+    margin-top: .5rem;
+}
+.over {
+    display: none;
+}
+.form-control {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 1.3rem;
+    padding: 10px;
+}
+.arrow{
+    display: none;
+}
+
+.form-control button {
+    border-bottom: 1px solid gray;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-control :focus{
+    color: orange;
+    text-decoration: underline;
+}
+.container table {
+    width: 100%;
+    overflow: scroll;
+}
+
+.main{
+    width: 100%;
+    overflow: scroll;
+}
+.main table{
+    border: 1px solid gray;
+}
+/* @media screen and (max-width:468px) {
+    .drop-down{
+        display: block;
+    }
+  
+ 
+} */
+/* @media screen and (max-width:750px) {
+    .head th{
+        margin-left: 1rem;
+    }
+} */
+@media screen and (max-width:768px)  {
+    .form-control {
+        display: none;
+    }
+    .over {
+        display: contents;
+       
+    }
+    .over select {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:522px) {
+    .change h1{
+        margin-top: 2rem;
+    }
+    .icon4 {
+      font-size: 15px;
+    }
+    .bull {
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+    .ring{
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+} 

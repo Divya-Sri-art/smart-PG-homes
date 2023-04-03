@@ -1,0 +1,144 @@
+.text {
+     flex: 1; 
+     margin: 1rem;
+}
+.over {
+    display: none;
+}
+.container td{
+    padding: 1rem;
+}
+.text h1 { 
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.change {
+    display: flex;
+    justify-content: space-between;
+}
+.icon4 {
+    display: flex;
+    font-size: 19px;
+    gap: .5rem;
+    cursor: pointer;
+}
+.bull {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 17px;
+}
+.ring{
+    background-color: white;
+    border-radius: 17px;
+    padding: .5rem;
+}
+.head th{
+    border-bottom: 1px solid gray;
+    color: rgb(112, 114, 117);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.paragraph{
+    text-align: left;
+}
+.AppGlass {
+    display: flex;
+    background-color: whitesmoke;
+}
+.AppGlass .text{
+    overflow: scroll;
+
+}
+.container{
+    overflow: scroll;
+    background-color: white;
+  
+}
+.container table{
+   
+    border: 1px solid gray;
+    min-width: 976px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+
+}
+.form-control {
+    display: flex;
+    gap: 1rem;
+   margin: 1rem 0;
+}
+.form-control button {
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-control :focus {
+    background-color: white;
+}
+.status button {
+    font-size: 1rem;
+    color: white;
+    background-color: orange;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container{
+   width: 100%;
+   background-color: white;
+   padding: 1rem;
+   border-radius: 10px;
+   overflow: scroll;
+}
+.container table{
+    min-width: 600px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    /* min-width: 600px; */
+}
+
+
+@media screen and (max-width:768px)  {
+    .form-control {
+        display: none;
+    }
+    .over {
+        display: contents;
+       
+    }
+    .over select {
+        width: 100%;
+        
+        padding: .5rem 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:522px) {
+    .change h1{
+        margin-top: 2rem;
+    }
+    .icon4 {
+      font-size: 15px;
+    }
+    .bull {
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+    .ring{
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+} 

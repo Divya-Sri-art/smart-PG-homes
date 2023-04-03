@@ -1,0 +1,168 @@
+.container {
+    margin-top: 2rem;
+    background-color: white;
+    /* padding: 1.7rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.text{
+    flex: 1;
+    margin-left:1rem;
+}
+
+.text h1 { 
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 30px;
+    /* margin: 2rem 1rem; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.change {
+    display: flex;
+   justify-content: space-between;
+}
+.icon4 {
+    display: flex;
+    font-size: 19px;
+    gap: .5rem;
+    cursor: pointer;
+}
+.bull {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 17px;
+}
+.ring{
+    background-color: white;
+    border-radius: 17px;
+    padding: .5rem;
+}
+
+.AppGlass {
+    display: flex;
+    background-color: whitesmoke;
+}
+.AppGlass .text{
+    overflow: scroll;
+}
+.table::-webkit-scrollbar{
+    display: none;
+}
+.table{
+    overflow: scroll;
+    background-color: white;
+}
+.table table::-webkit-scrollbar{
+    display: none;
+}
+.table table{
+    border: 1px solid gray;
+    min-width: 600px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+}
+
+.AppGlass .text::-webkit-scrollbar{
+    display: none;
+}
+.table tbody {
+    cursor: pointer;
+}
+.head th{
+    color: rgb(112, 114, 117);
+    font-weight: 500;
+    font-size: 16px;
+   text-align: left;
+   padding: 1rem;
+   /* padding: 13px 35px; */
+   border-bottom: 1px solid gray;
+}
+
+.element div {
+    display: flex;
+    gap: 13px;
+}
+.table td{
+    padding: 1rem;
+}
+.text1 h3 {
+    padding: .4rem 1.3rem  ;
+    border-radius: 29px;
+    font-size: 1.9rem;
+    color: white;
+    font-weight: 400;
+}
+.element2 button {
+    font-size: 16px;
+    border: none;
+    list-style: none;
+    cursor: pointer;
+    font-size:500;
+}
+.element2 p {
+    font-weight: bold;
+}
+.element3 p {
+    font-size: 12px;
+    color: #68E365;
+    font-weight: bold;
+}
+.form-control {
+    /* margin-bottom: 16px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-control p {
+    font-size: 23px;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+.form-control .btn-btn {
+  background-color: #FF7400;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  color: white;
+  margin: .5rem 0;
+  cursor: pointer;
+}
+.table{
+    overflow: scroll;
+}
+.table table{
+    width: 100%;
+    border: 1px solid gray;
+}
+@media screen and (max-width:522px) {
+    .change h1{
+        margin-top: 2rem;
+    }
+    .icon4 {
+      font-size: 15px;
+    }
+    .bull {
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+    .ring{
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+} 
+@media screen and (max-width:468px) {
+    .form-control{
+        display: block;
+    }
+    .text1 p{
+        font-size: .8rem;
+    }
+    .text1 h3{
+        font-size: 1.8rem;
+        padding: .3rem 1.1rem 
+    }
+}

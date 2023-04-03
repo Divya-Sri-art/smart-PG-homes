@@ -1,0 +1,194 @@
+.text {
+    flex: 1; 
+    margin: 1rem;
+}
+.text h1 { 
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.change {
+    display: flex;
+    justify-content: space-between;
+}
+.icon4 {
+    display: flex;
+    font-size: 19px;
+    gap: .5rem;
+    cursor: pointer;
+}
+.bull {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 17px;
+}
+.ring{
+    background-color: white;
+    border-radius: 17px;
+    padding: .5rem;
+}
+.AppGlass {
+    display: flex;
+    background-color: whitesmoke;
+}
+@media screen and (max-width:522px) {
+    .change h1{
+        margin-top: 2rem;
+    }
+    .icon4 {
+      font-size: 15px;
+    }
+    .bull {
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+    .ring{
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+} 
+.container {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu h2{
+    font-size: 26px;
+    font-weight: 400;
+    color: #201e1e;
+}
+.menu input{
+    padding: 0rem 8px;
+    justify-content: space-between;
+    font-size: 19px;
+    background-color: #F5F3F8;
+    border-radius: 10px;
+    color: rgb(78, 73, 73);
+    border: 1px solid rgb(233, 225, 225);
+}
+.menu button{
+    padding: .7rem 1.5rem;
+    background-color: #FF7400;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.food_menu {
+    margin-left: 6rem;
+    position: relative;
+}
+.food_arrow{
+    border-left: 3px solid #dfdfdf;
+    height: 500px;
+    margin-left: 10rem;
+    width: 100px;
+}
+.food_menu1{
+    display: flex;
+    gap: 3rem;
+    left: -5px;
+    position: absolute;
+    top: 70px; 
+}
+
+.food_timing :focus{
+    background-color: orange;
+    border: none;
+    color: #FF7400;
+}
+/* .food_timing p:focus{
+    color: orange;
+   
+} */
+
+.food_timing{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 1.05rem;
+}
+.food_timing p{
+    color: #dfdfdf;
+    font-size: 15px;
+    /* font-style: normal; */
+    font-weight: 400;
+    margin-top: .9rem;
+    /* line-height: 10px; */
+}
+.food_timing button{
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 0.9rem;
+    width: 1rem;
+    cursor: pointer;
+}
+.food_menu2{
+    display: flex;
+    gap: 3rem;
+    left: -4px;
+    position: absolute;
+    top: 200px; 
+}
+.food_menu3{
+    display: flex;
+    gap: 3rem;
+    left: -4px;
+    position: absolute;
+    top: 400px; 
+}
+.food_mobile_menu{
+    display: none;
+}
+
+.mobile_menu1 h3{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.mobile_menu1 ul{
+    padding: 0 1rem;
+}
+.mobile_menu1 ul li{
+    color: #333;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+@media screen and (max-width:800px) {
+    .food_mobile_menu{
+        display: block;
+    }
+    .mobile_menu1{
+        border-radius: 10px;
+        padding: 1rem;
+        margin-top: .5rem;
+        grid-gap: 1rem;
+        display: grid;
+        gap: 1rem;
+    }
+    .food_menu{
+        display: none;
+    }
+    .food_timing button{
+        block-size: none;
+    }
+}
+@media screen and (max-width:468px) {
+    .menu {
+        display: contents;
+    }
+}

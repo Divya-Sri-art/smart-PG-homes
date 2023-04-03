@@ -1,0 +1,70 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modalContainer {
+    width: 500px;
+    height: 285px;
+    border-radius: 12px;
+    background-color: white ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.icon {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: normal;
+    color: rgb(231, 172, 165);
+    
+}
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.modalContainer h1 {
+    flex:  50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: gray;
+    text-align: center;
+}
+
+.footer  {
+    justify-content: right ;
+    text-align: right;
+    margin-top: 4rem;
+}
+.footer button {
+    margin-left: .5rem;
+    cursor: pointer;
+  
+}
+.footer .btn {
+    padding: 9px 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 16px;
+    color: rgb(56, 52, 52);
+    
+}
+.footer .btn1 {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+}

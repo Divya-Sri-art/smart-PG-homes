@@ -1,0 +1,230 @@
+.icon4 {
+    display: flex;
+    font-size: 19px;
+    gap: .5rem;
+    cursor: pointer;
+}
+.bull {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 17px;
+}
+.ring{
+    background-color: white;
+    border-radius: 17px;
+    padding: .5rem;
+}
+.change {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.AppGlass {
+    display: flex;
+    background-color: whitesmoke;
+}
+.text {
+    flex: 1;
+}
+.change h1{
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width:522px) {
+    .change h1{
+        margin-top: 2rem;
+    }
+    .icon4 {
+      font-size: 15px;
+    }
+    .bull {
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+    .ring{
+        padding: .2rem;
+        margin-bottom: 2.4rem;
+        border-radius: 27px;
+    }
+} 
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem;
+}
+.number1{
+    padding:2rem ;
+    border-radius: 10px;
+    background-color: white;
+}
+.number1 h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.number1 p {
+    font-size: 11px;
+    color: gray;
+    margin-top: .7rem;
+}
+.facilities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.facilities h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.four{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 2rem;
+}
+.sharing {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.four h6 {
+    font-weight: 400;
+
+}
+.icon {
+    color: orange;
+}
+.form-control {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: .6rem 1rem;
+    border-radius: 6px;
+    
+}
+button{
+    margin-left: 1rem;
+}
+.form-control-btn {
+    background-color: rgb(245, 214, 156);
+    border: none;
+    color: orange;
+    font-size: 18px;
+    padding: .4rem .9rem;
+    border-radius: 6px;
+}
+.head th{
+    color: rgb(112, 114, 117);
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem;
+}
+.container td{
+    padding: 1rem;
+}
+
+.element div {
+    display: flex;
+    gap: 10px;
+}
+.letters h3 {
+    padding: .5rem 1.3rem;
+    border-radius: 17rem ;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+}
+.element p {
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    font-weight: 500;
+}
+.element1 {
+    font-size: 14px;
+}
+.element2 button {
+    /* margin-left: 1rem; */
+    font-size: 16px;
+    border: none;
+    /* padding: 8px 8px; */
+    border-radius: 18px;
+    background-color: rgb(233, 225, 225);
+    cursor: pointer;
+}
+/* .text1{
+    margin-top: 15px;
+} */
+.AppGlass .text{
+    overflow: scroll;
+
+}
+.container{
+    overflow: scroll;
+    background-color: white;
+  
+}
+.container table{
+   border: 1px solid gray;
+    min-width: 600px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+   
+
+}
+.container tbody{
+    cursor: pointer;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+.parentContainer h4 {
+    color: #2D3134;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    background-color: white;
+  
+}
+.parentContainer {
+    color: gray;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+@media screen and (max-width:758px) {
+    .container table{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:938px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .facilities{
+        width: 100%;
+    }
+    .number1 {
+        width: 100%;
+    }
+}
+@media screen and (max-width:507px) {
+    .number1 {
+        display: none;
+    }
+    
+   
+}

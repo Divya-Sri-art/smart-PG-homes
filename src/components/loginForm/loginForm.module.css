@@ -1,0 +1,114 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 100;
+    width: 100%;
+    
+}
+.sub-wrapper{
+background-color: white;
+width: 100%;
+margin-left: 1rem;
+align-items: center;
+text-align: center;
+padding-left: 30rem;
+}
+.sub-wrapper img {
+    margin-top: 2rem;
+}
+.sub-wrapper h4 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.sub-wrapper input {
+    padding: 10px 100px;
+    border-width: 0 0 1px;
+    border-color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 1rem;
+}
+/* .sub-wrapper input  :focus{
+    border: none;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.sub-wrapper button{
+    margin-top: 2rem;
+    background-color: orange;
+    margin-left: 1rem;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+}
+.sub-wrapper h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.icon {
+    cursor: pointer;
+    position: relative;
+    right: 4rem;
+    padding: .3rem;
+    margin-top: -25rem;
+}
+@media screen and (max-width:924px) {
+   .sub-wrapper {
+    padding-left: 10rem;
+    
+   }
+   .sub-wrapper input {
+    padding: 10px 70px;
+   }
+}
+@media screen and (max-width:500px) {
+    .sub-wrapper {
+        padding-left: 7rem;
+    }
+    .sub-wrapper h4{
+        font-size: 1.5rem;
+    }
+    .sub-wrapper input {
+        padding: 8px 30px;
+        font-size: 1rem;
+       }
+       .sub-wrapper img{
+        margin-top: .5rem;
+       }
+       .sub-wrapper h5{
+        font-size: .9rem;
+        margin-top: 0rem;
+       }
+       .sub-wrapper button{
+        font-size: 1rem;
+        margin-top: .5rem;
+       }
+       .icon{
+        margin-top: -17rem;
+       }
+}
+@media screen and (max-width:378px) {
+    .icon{
+        margin-top: -21rem;
+        right: 3rem;
+    }
+   .sub-wrapper{
+    padding-left: 1.5rem;
+   }
+    
+}

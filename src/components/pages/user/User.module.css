@@ -1,0 +1,16 @@
+.AppGlass {
+    display: grid;
+    background-color: whitesmoke;
+    height: 97%;
+    width: 97%;
+    border-radius: 3rem;
+    overflow: hidden;
+    grid-template-columns: 11.5rem auto;
+}
+.container h1 {
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 35px;
+    margin: 2rem 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
